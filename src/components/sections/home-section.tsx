@@ -103,9 +103,9 @@ export default function HomeSection() {
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
             Tanmay Gaur
           </h1>
-          <h2 className="text-xl md:text-4xl font-medium mt-2 text-white/90">
+          {/* <h2 className="text-xl md:text-4xl font-medium mt-2 text-white/90">
             Creative <span className="text-pink-500">Software</span>  <span className="text-blue-500">Developer</span>
-          </h2>
+          </h2> */}
         </motion.div>
 
         {/* <motion.p
@@ -135,22 +135,22 @@ export default function HomeSection() {
                 }
           }
         >
-          <motion.button
-            className="px-6 py-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full text-white font-medium"
+            <motion.button
+            className="px-4 py-2 text-sm md:px-6 md:py-3 md:text-base bg-gradient-to-r from-pink-500 to-purple-600 rounded-full text-white font-medium"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigateTo("projects")}
-          >
+            >
             Explore My Work
-          </motion.button>
-          <motion.button
-            className="px-6 py-3 bg-transparent border border-white/20 rounded-full text-white font-medium backdrop-blur-sm"
+            </motion.button>
+            <motion.button
+            className="px-4 py-2 text-sm md:px-6 md:py-3 md:text-base bg-transparent border border-white/20 rounded-full text-white font-medium backdrop-blur-sm"
             whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
             whileTap={{ scale: 0.95 }}
             onClick={() => navigateTo("contact")}
-          >
+            >
             Get In Touch
-          </motion.button>
+            </motion.button>
         </motion.div>
       </div>
 

@@ -103,9 +103,9 @@ export default function HomeSection() {
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 text-transparent bg-clip-text">
             Tanmay Gaur
           </h1>
-          {/* <h2 className="text-xl md:text-4xl font-medium mt-2 text-white/90">
+          {/*<h2 className="text-xl md:text-4xl font-medium mt-2 text-white/90">
             Creative <span className="text-pink-500">Software</span>  <span className="text-blue-500">Developer</span>
-          </h2> */}
+          </h2>*/}
         </motion.div>
 
         {/* <motion.p

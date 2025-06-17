@@ -18,6 +18,16 @@ interface Project {
 
 const projects: Project[] = [
   {
+      id: "ai-design-studio",
+      title: "AI Design Studio",
+      description: "An AI-powered design studio leveraging real-time generative capabilities, integrated AI agents via Gemini API, and seamless PDF generation using jsPDF and PDF-lib.",
+      image: "/ai-design-studio.png?height=600&width=800",
+      tags: ["Vite", "Gemini API", "jsPDF", "PDF-lib"],
+      github: "https://github.com/TanmayGaur",
+      demo: "https://tanmaygaur.github.io/ai-design-studio/",
+      color: "rgba(216, 156, 246, 0.5)",
+  },
+  {
     id: "restaurant-pos",
     title: "Servitor",
     description:
@@ -38,28 +48,7 @@ const projects: Project[] = [
     github: "https://github.com/TanmayGaur",
     demo: "https://leaf-lens1.vercel.app",
     color: "rgba(216, 156, 246, 0.5)",
-  },
-  // {
-  //   id: "chat-app",
-  //   title: "Waveform Chat",
-  //   description:
-  //     "A real-time communication platform with voice visualization, spatial audio, and collaborative features.",
-  //   image: "/placeholder.svg?height=600&width=800",
-  //   tags: ["React", "WebRTC", "Socket.io", "Firebase"],
-  //   github: "https://github.com",
-  //   demo: "https://demo.com",
-  //   color: "#FF5E5B",
-  // },
-  // {
-  //   id: "task-manager",
-  //   title: "Orbital Tasks",
-  //   description: "A 3D task management system with interactive visualizations and productivity analytics.",
-  //   image: "/placeholder.svg?height=600&width=800",
-  //   tags: ["Vue.js", "Three.js", "GraphQL", "PostgreSQL"],
-  //   github: "https://github.com",
-  //   demo: "https://demo.com",
-  //   color: "#D89CF6",
-  // },
+  }
 ]
 
 export default function ProjectsSection() {
@@ -142,7 +131,7 @@ export default function ProjectsSection() {
                 layoutId={`project-image-${project.id}`}
               >
                 <div
-                  className="w-full h-full bg-cover bg-center"
+                  className="w-full h-full bg-cover bg-center "
                   style={{ backgroundImage: `url(${project.image})` }}
                 />
               </motion.div>
